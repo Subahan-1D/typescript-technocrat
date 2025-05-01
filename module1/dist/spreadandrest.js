@@ -5,7 +5,7 @@
     // rest operator
     // learn spread operator
     var bros1 = ["masud", "rasel", "juwel"];
-    var bros2 = ["imran", "subahan", "sobuj"];
+    var bros2 = ["imran", "subahan", "sobuj", "Suborna"];
     bros1.push.apply(bros1, bros2);
     console.log(bros1);
 }
@@ -32,4 +32,3 @@ var greetFriends = function () {
     friends.forEach(function (friend) { return console.log("Hi ".concat(friend)); });
 };
 greetFriends("masud ", "juwel", "subahan", "Mezba");
-console.log("Dekho Thik Ace ki na ");

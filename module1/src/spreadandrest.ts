@@ -6,7 +6,7 @@
   // learn spread operator
 
   const bros1: string[] = ["masud", "rasel", "juwel"];
-  const bros2: string[] = ["imran", "subahan", "sobuj"];
+  const bros2: string[] = ["imran", "subahan", "sobuj" ,"Suborna"];
 
   bros1.push(...bros2);
   console.log(bros1);
