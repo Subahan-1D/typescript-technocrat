@@ -12,7 +12,7 @@
   };
   const {
     contactNo,
-    name: { middleName },
+    name: { middleName : midName   }, // name alias
   } = user;
   console.log(user);
 

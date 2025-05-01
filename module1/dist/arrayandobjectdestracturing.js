@@ -10,7 +10,7 @@
         },
         contactNo: "01786727749",
     };
-    var contactNo = user_1.contactNo, middleName = user_1.name.middleName;
+    var contactNo = user_1.contactNo, midName = user_1.name.middleName;
     console.log(user_1);
     // array destructuring
     var myFriends = ["juwel", "imran ", "subahan", "rokon", "sohel", "rokib"];
