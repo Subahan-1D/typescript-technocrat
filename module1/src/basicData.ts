@@ -14,3 +14,6 @@ let Names: string[] = ["Subahan","Masud"];
 let eligibleList: number = 123
 
 
+// tuple > array > number > type of values
+
+let coordinates : [number , number] = [1  , 2]

@@ -8,3 +8,5 @@ var d;
 d = "ddd";
 var Names = ["Subahan", "Masud"];
 var eligibleList = 123;
+// tuple > array > number > type of values
+var coordinates = [1, 2];
