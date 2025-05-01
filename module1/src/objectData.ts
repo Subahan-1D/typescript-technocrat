@@ -12,4 +12,3 @@ const user: {
   company: "Bangladesh",
   isMarried: false,
 };
-user.company = "PH"
