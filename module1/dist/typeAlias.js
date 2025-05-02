@@ -15,5 +15,5 @@
         isAdmin: false,
     };
     var add_1 = function (num1, num2) { return num1 + num2; };
-    console.log("Add Function ", add_1(2, 4));
+    console.log("Add Function", add_1(2, 4));
 }
