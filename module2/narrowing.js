@@ -16,4 +16,9 @@
     var result1 = kgToGm(1000);
     var result2 = kgToGm("1000");
     console.log(result2);
+    try {
+    }
+    catch (error) {
+        console.log(error.message);
+    }
 }
