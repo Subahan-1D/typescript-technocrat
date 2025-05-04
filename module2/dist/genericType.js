@@ -1,10 +1,10 @@
 "use strict";
 {
     // generic type array
-    var RollNumber = [1, 2, 3, 4, 5];
-    var Mentors = ["Mr.X", "Mr.Y", "Mr.Z"];
-    var boolArray = [true, false, true];
-    var user_1 = [
+    const RollNumber = [1, 2, 3, 4, 5];
+    const Mentors = ["Mr.X", "Mr.Y", "Mr.Z"];
+    const boolArray = [true, false, true];
+    const user = [
         {
             name: "Subahan",
             age: 20,
@@ -18,7 +18,7 @@
             age: 56,
         },
     ];
-    console.log("Rong process", user_1);
-    var add_1 = function (x, y) { return x + y; };
-    add_1(40, 20);
+    console.log("Rong process", user);
+    const add = (x, y) => x + y;
+    add(40, 20);
 }
