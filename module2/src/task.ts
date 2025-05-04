@@ -226,17 +226,17 @@
       return undefined;
     }
   };
-  // //   console.log(processData("subahan"));
-  // //   console.log(processData(5));
-  // //   console.log(processData(undefined));
+    console.log(processData("subahan"));
+    console.log(processData(5));
+    console.log(processData(undefined));
 
   //Task 12: Never Type
   //Objective: Use the never type for functions that don’t return.
 
-  //   const handleError = (message: string): never => {
-  //     throw new Error(message);
-  //   };
-  //   console.log(handleError("Something went rong"));
+    const handleError = (message: string): never => {
+      throw new Error(message);
+    };
+    console.log(handleError("Something went rong"));
 
   //Task 13: Generics with Functions and Interfaces
   //Objective: Use generics to handle different types.
