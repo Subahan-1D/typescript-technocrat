@@ -11,4 +11,6 @@
   type Vehicle<T> = T extends keyof Shack ? true : false ; 
 
   type HashMaster = Vehicle<"car">
+  
+  
 }
